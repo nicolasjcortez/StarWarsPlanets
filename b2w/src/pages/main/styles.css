@@ -1,0 +1,59 @@
+.product-list{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.product-list article{
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 10px auto 0;
+    padding: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    
+}
+
+.attr{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 50px;
+    line-height: 24px;
+}
+.product-list article strong {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 50px;
+    line-height: 24px;
+}
+
+p#nfilms {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.product-list  button {
+    height: 42px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    background: none;
+    margin: 10px auto 0;
+    color: #da552f;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.product-list  button:hover{
+    background: #da552f;
+    color: #fff;
+}
