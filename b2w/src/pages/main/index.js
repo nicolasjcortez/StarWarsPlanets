@@ -23,7 +23,7 @@ export default class Main extends Component {
         var i = 1;
         var planetsArray = [];
         var response = await api.get('./planets/?page='+i);
-        var index = this.getRandomIntInclusive(0, response.data.count);
+        var index = this.getRandomIntInclusive(0, response.data.count - 1);
         while(response.data.next != null)
         {
             planetsArray.push.apply(planetsArray, response.data.results)
